@@ -1,0 +1,4 @@
+训练：py .\train.py --name=train_9_100_001 --lr=0.005 --weight_decay=0.001 --epochs=100 --input_w=640  --input_h=640  --dataset=dsb2018_640 --batch_size=1 --num_workers=1  --arch=NestedUNet
+训练输出：./models/train_9_100_001
+验证/分割：py ./val.py --name=train_9_100_001
+验证输出：./output/train_9_100_001
