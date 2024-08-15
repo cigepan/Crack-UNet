@@ -141,7 +141,7 @@ cython_debug/
 .vscode
 
 LovaszSoftmax
-inputs/*
+#inputs/*
 models/*
 outputs/*
 
